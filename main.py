@@ -43,6 +43,7 @@ class Gmail:
 
 
 def main():
+    # Must generate app key OR enable less secure apps in your google settings.
     username, password = 'username', 'password'
     gmail = Gmail(username, password)
     gmail.set_label('Inbox')
